@@ -4,3 +4,5 @@ docker run --env RDS_URL=h2:h2:mem:ebookstoredb
 --env RDS_PASSWORD=password
 --env RDS_DIALECT=org.hibernate.dialect.H2Dialect
 --publish 8080:8080 deepakbindhani1234/microservicewithh2tofargate
+
+RDS_USERNAME arn:aws:ssm:us-east-1:435892494613:parameter/dev/book-service/RDS_USERNAME
